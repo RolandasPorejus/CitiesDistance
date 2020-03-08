@@ -1,0 +1,1130 @@
+[EL Config]: metadata: 2020-03-08 20:33:36.837--ServerSession(2032251042)--Thread(Thread[main,5,main])--The access type for the persistent class [class citiesDistance.Location] is set to [FIELD].
+[EL Config]: metadata: 2020-03-08 20:33:36.854--ServerSession(2032251042)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field city] is being defaulted to: class citiesDistance.City.
+[EL Config]: metadata: 2020-03-08 20:33:36.857--ServerSession(2032251042)--Thread(Thread[main,5,main])--The access type for the persistent class [class citiesDistance.Coordinates] is set to [FIELD].
+[EL Config]: metadata: 2020-03-08 20:33:36.858--ServerSession(2032251042)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field bounds] is being defaulted to: class citiesDistance.Bounds.
+[EL Config]: metadata: 2020-03-08 20:33:36.858--ServerSession(2032251042)--Thread(Thread[main,5,main])--The access type for the persistent class [class citiesDistance.Bounds] is set to [FIELD].
+[EL Config]: metadata: 2020-03-08 20:33:36.858--ServerSession(2032251042)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field city] is being defaulted to: class citiesDistance.City.
+[EL Config]: metadata: 2020-03-08 20:33:36.862--ServerSession(2032251042)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field coordinates] is being defaulted to: class citiesDistance.Coordinates.
+[EL Config]: metadata: 2020-03-08 20:33:36.863--ServerSession(2032251042)--Thread(Thread[main,5,main])--The access type for the persistent class [class citiesDistance.City] is set to [FIELD].
+[EL Config]: metadata: 2020-03-08 20:33:36.864--ServerSession(2032251042)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field bounds] is being defaulted to: class citiesDistance.Bounds.
+[EL Config]: metadata: 2020-03-08 20:33:36.865--ServerSession(2032251042)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field location] is being defaulted to: class citiesDistance.Location.
+[EL Config]: metadata: 2020-03-08 20:33:36.865--ServerSession(2032251042)--Thread(Thread[main,5,main])--The alias name for the entity class [class citiesDistance.Location] is being defaulted to: Location.
+[EL Config]: metadata: 2020-03-08 20:33:36.87--ServerSession(2032251042)--Thread(Thread[main,5,main])--The table name for entity [class citiesDistance.Location] is being defaulted to: LOCATION.
+[EL Config]: metadata: 2020-03-08 20:33:36.88--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [latitude] is being defaulted to: LATITUDE.
+[EL Config]: metadata: 2020-03-08 20:33:36.881--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.881--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [longitude] is being defaulted to: LONGITUDE.
+[EL Config]: metadata: 2020-03-08 20:33:36.881--ServerSession(2032251042)--Thread(Thread[main,5,main])--The alias name for the entity class [class citiesDistance.Coordinates] is being defaulted to: Coordinates.
+[EL Config]: metadata: 2020-03-08 20:33:36.881--ServerSession(2032251042)--Thread(Thread[main,5,main])--The table name for entity [class citiesDistance.Coordinates] is being defaulted to: COORDINATES.
+[EL Config]: metadata: 2020-03-08 20:33:36.882--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [latitude] is being defaulted to: LATITUDE.
+[EL Config]: metadata: 2020-03-08 20:33:36.882--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.882--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [longitude] is being defaulted to: LONGITUDE.
+[EL Config]: metadata: 2020-03-08 20:33:36.882--ServerSession(2032251042)--Thread(Thread[main,5,main])--The alias name for the entity class [class citiesDistance.Bounds] is being defaulted to: Bounds.
+[EL Config]: metadata: 2020-03-08 20:33:36.882--ServerSession(2032251042)--Thread(Thread[main,5,main])--The table name for entity [class citiesDistance.Bounds] is being defaulted to: BOUNDS.
+[EL Config]: metadata: 2020-03-08 20:33:36.883--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [NORTH_EAST] is being defaulted to: NORTH_EAST.
+[EL Config]: metadata: 2020-03-08 20:33:36.883--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.883--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [SOUTH_WEST] is being defaulted to: SOUTH_WEST.
+[EL Config]: metadata: 2020-03-08 20:33:36.883--ServerSession(2032251042)--Thread(Thread[main,5,main])--The alias name for the entity class [class citiesDistance.City] is being defaulted to: City.
+[EL Config]: metadata: 2020-03-08 20:33:36.884--ServerSession(2032251042)--Thread(Thread[main,5,main])--The table name for entity [class citiesDistance.City] is being defaulted to: CITY.
+[EL Config]: metadata: 2020-03-08 20:33:36.884--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [country] is being defaulted to: COUNTRY.
+[EL Config]: metadata: 2020-03-08 20:33:36.884--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [placeId] is being defaulted to: PLACEID.
+[EL Config]: metadata: 2020-03-08 20:33:36.884--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [name] is being defaulted to: NAME.
+[EL Config]: metadata: 2020-03-08 20:33:36.885--ServerSession(2032251042)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.896--ServerSession(2032251042)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field city] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.896--ServerSession(2032251042)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [city] is being defaulted to: CITY_ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.897--ServerSession(2032251042)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field bounds] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.897--ServerSession(2032251042)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [bounds] is being defaulted to: BOUNDS_ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.897--ServerSession(2032251042)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field city] is being defaulted to: ID.
+[EL Config]: metadata: 2020-03-08 20:33:36.898--ServerSession(2032251042)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [city] is being defaulted to: CITY_ID.
+[EL Info]: 2020-03-08 20:33:36.941--ServerSession(2032251042)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+[EL Fine]: connection: 2020-03-08 20:33:37.296--Thread(Thread[main,5,main])--Detected database platform: null
+[EL Info]: connection: 2020-03-08 20:33:37.298--Thread(Thread[main,5,main])--Not able to detect platform for vendor name [SQLite3]. Defaulting to [org.eclipse.persistence.platform.database.DatabasePlatform]. The database dialect used may not match with the database you are using. Please explicitly provide a platform using property eclipselink.platform.class.name.
+[EL Config]: connection: 2020-03-08 20:33:37.303--ServerSession(2032251042)--Connection(156545103)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>DatabasePlatform
+	user name=> ""
+	datasource URL=> "jdbc:sqlite:db/CitiesDataDB.db"
+))
+[EL Config]: connection: 2020-03-08 20:33:37.304--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--Connected: jdbc:sqlite:db/CitiesDataDB.db
+	User: null
+	Database: SQLite  Version: 3.15.1
+	Driver: SQLiteJDBC  Version: native
+[EL Warning]: metadata: 2020-03-08 20:33:37.311--ServerSession(2032251042)--Thread(Thread[main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [bounds] for the entity class [class citiesDistance.Coordinates] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2020-03-08 20:33:37.322--ServerSession(2032251042)--Thread(Thread[main,5,main])--file:/C:/Users/Admin/eclipse-workspace/CitiesDistance/CitiesDistance-Run.jar_CitiesDistance login successful
+[EL Fine]: sql: 2020-03-08 20:33:37.338--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT * FROM SEQUENCE WHERE SEQ_NAME = SEQ_GEN
+[EL Fine]: sql: 2020-03-08 20:33:37.5--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sarande, Albania]
+[EL Fine]: sql: 2020-03-08 20:33:37.502--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vlore, Albania]
+[EL Fine]: sql: 2020-03-08 20:33:37.504--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tirana, Albania]
+[EL Fine]: sql: 2020-03-08 20:33:37.505--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vosendorf, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.508--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Schwechat, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.509--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Graz, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.513--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Axams, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.514--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Innsbruck, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.515--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Carinthia, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.518--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vienna, Austria]
+[EL Fine]: sql: 2020-03-08 20:33:37.523--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Minsk, Belarus]
+[EL Fine]: sql: 2020-03-08 20:33:37.525--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Brugge, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.525--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Waterloo, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.526--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mechelen, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.529--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Antwerpen, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.53--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Namur, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.535--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Edegem, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.536--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Brussels, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.537--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Genval, Belgium]
+[EL Fine]: sql: 2020-03-08 20:33:37.54--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mostar, Bosnia and Herzegovina]
+[EL Fine]: sql: 2020-03-08 20:33:37.542--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Neum, Bosnia and Herzegovina]
+[EL Fine]: sql: 2020-03-08 20:33:37.546--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sofia, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.547--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nessebar, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.548--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pomorie, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.551--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Burgas, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.552--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Plovdiv, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.558--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bansko, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.559--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Varna, Bulgaria]
+[EL Fine]: sql: 2020-03-08 20:33:37.562--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Umag, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.563--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Trogir, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.568--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Makarska, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.569--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Split, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.571--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Opatija, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.574--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sibenik, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.575--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cavtat, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.58--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Korenica, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.581--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rijeka, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.582--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dubrovnik, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.585--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rovinj, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.591--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Podstrana, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.592--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pula, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.593--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Porec, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.596--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Omisali, Croatia]
+[EL Fine]: sql: 2020-03-08 20:33:37.597--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Paphos, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.602--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Limassol, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.603--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kyrenia, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.606--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Larnaca, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.607--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Protaras, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.612--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nicosia, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.613--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kissonerga, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.614--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Paralimni, Cyprus]
+[EL Fine]: sql: 2020-03-08 20:33:37.615--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Brno, Czech Republic]
+[EL Fine]: sql: 2020-03-08 20:33:37.618--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Prague, Czech Republic]
+[EL Fine]: sql: 2020-03-08 20:33:37.624--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Aarhus, Denmark]
+[EL Fine]: sql: 2020-03-08 20:33:37.625--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Billund, Denmark]
+[EL Fine]: sql: 2020-03-08 20:33:37.626--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Copenhagen, Denmark]
+[EL Fine]: sql: 2020-03-08 20:33:37.629--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ronne, Denmark]
+[EL Fine]: sql: 2020-03-08 20:33:37.63--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kastrup, Denmark]
+[EL Fine]: sql: 2020-03-08 20:33:37.635--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tallinn, Estonia]
+[EL Fine]: sql: 2020-03-08 20:33:37.636--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Parnu, Estonia]
+[EL Fine]: sql: 2020-03-08 20:33:37.642--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tartu, Estonia]
+[EL Fine]: sql: 2020-03-08 20:33:37.644--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tampere, Finland]
+[EL Fine]: sql: 2020-03-08 20:33:37.645--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Helsinki, Finland]
+[EL Fine]: sql: 2020-03-08 20:33:37.646--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Espoo, Finland]
+[EL Fine]: sql: 2020-03-08 20:33:37.647--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vantaa, Finland]
+[EL Fine]: sql: 2020-03-08 20:33:37.65--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Avignon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.651--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Chelles, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.658--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Taverny, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.659--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Perpignan, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.662--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Malakoff, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.663--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Besancon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.667--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Strasbourg, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.669--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mougins, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.673--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vannes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.674--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Antibes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.679--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pontarlier, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.68--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Perigueux, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.68--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bayeux, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.684--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Emerainville, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.685--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Colombes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.69--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rungis, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.691--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gennevilliers, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.695--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bagnolet, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.696--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fontvieille, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.701--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Argenteuil, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.702--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Quimper, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.704--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Metz, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.707--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Villejust, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.712--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Orleans, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.713--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nanterre, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.713--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bobigny, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.714--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Menton, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.717--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Orange, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.718--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mallemort, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.725--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Massy, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.728--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Roanne, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.73--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gaillard, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.734--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Burgundy, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.735--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Eaubonne, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.737--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Caen, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.74--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pantin, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.741--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cachan, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.746--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mandelieu, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.747--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Puteaux, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.748--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Eze, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.752--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Evry, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.758--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sarcelles, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.759--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bordeaux, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.762--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Luzarches, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.763--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Genneville, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.769--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lille, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.771--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Louveciennes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.775--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Goussainville, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.776--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Clichy, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.781--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bougival, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.782--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Creteil, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.785--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Beausoleil, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.792--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Corsica, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.793--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Carcassonne, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.794--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Saclay, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.796--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Picardie, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.798--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Asnieres, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.803--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montargis, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.804--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nice, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.808--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Poissy, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.809--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Arles, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.814--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Toulouse, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.815--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montlucon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.818--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Serris, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.824--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Alfortville, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.826--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bron, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.826--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Amilly, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.829--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montreuil, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.83--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Angers, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.835--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Annecy, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.836--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Morangis, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.838--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sevran, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.841--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Annemasse, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.842--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lognes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.846--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Narbonne, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.847--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Draveil, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.848--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Briancon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.849--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Plaisir, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.852--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Deauville, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.857--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Villepinte, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.858--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lourdes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.859--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montevrain, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.863--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lyon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.864--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Valfrejus, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.869--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vanves, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.873--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montbeliard, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.875--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cannes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.879--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ecouen, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.88--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Belfort, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.88--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Monaco, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.881--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tours, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.885--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Guyancourt, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.886--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fresnes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.892--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nantes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.893--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pau, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.896--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montrouge, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.897--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Villejuif, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.902--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gonesse, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.904--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Linas, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.907--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Clamart, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.908--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Meudon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.912--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montpellier, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.916--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Limoges, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.918--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Torcy, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.924--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Suresnes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.927--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Biarritz, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.928--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montbazon, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.932--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Marseille, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.933--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Colmar, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.934--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cherbourg, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.939--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vincennes, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.94--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Versailles, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.944--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Courbevoie, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.945--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bezons, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.946--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Orly, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.949--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rouen, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.95--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Paris, France]
+[EL Fine]: sql: 2020-03-08 20:33:37.956--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Neuss, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.957--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Potsdam, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.96--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Schoenefeld, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.961--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Stuttgart, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.966--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rothenburg, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.967--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sulzbach, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.968--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hanau, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.973--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Augsburg, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.974--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bonn, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.978--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Braunschweig, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.979--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cologne, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.98--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Duesseldorf, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.983--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Eching, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.984--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Eschborn, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.99--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Frechen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.991--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hennigsdorf, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.994--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Herzogenaurach, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:37.995--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dusseldorf, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.0--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Koepenick, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.001--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Leipzig, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.002--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Liebenwalde, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.002--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Celle, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.007--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Langenhagen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.008--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ludwigsfelde, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.012--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Leverkusen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.013--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kleinmachnow, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.014--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Schwieberdingen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.014--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Offenbach, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.018--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Langen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.019--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hessen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.025--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kaarst, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.026--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gerlingen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.029--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Feldkirchen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.034--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dresden, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.035--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Filderstadt, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.035--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Erlangen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.039--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Duisburg, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.04--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ditzingen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.045--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dortmund, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.046--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Frankfurt, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.047--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Berlin, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.047--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ismaning, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.051--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bremen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.052--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ratingen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.057--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Unterschleissheim, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.058--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ostfildern, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.061--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Munich, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.062--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ottobrunn, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.067--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hamburg, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.068--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ulm, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.068--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Aschheim, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.069--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hanover, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.073--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Parsdorf, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.074--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Unterfoehring, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.079--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kelsterbach, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.079--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Norderstedt, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.08--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hallbergmoos, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.081--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dietzenbach, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.084--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Oberursel, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.085--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fussen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.091--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Haar, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.092--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Offenburg, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.096--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nuremberg, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.097--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mettmann, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.101--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Friedrichshafen, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.102--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fuerth, Germany]
+[EL Fine]: sql: 2020-03-08 20:33:38.104--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kalamaki, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.107--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Halkidiki, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.108--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Roda, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.113--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kavos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.114--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Perama, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.114--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gouvia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.115--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Plakias, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.116--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lindos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.125--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Imerovigli, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.126--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kardamena, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.127--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lassi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.128--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Thessaloniki, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.131--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Stalida, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.135--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rhodes, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.137--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rethymnon, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.138--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mastichari, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.141--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sifnos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.142--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sitia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.147--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sporades, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.147--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Stalis, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.148--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Svoronata, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.149--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Thassos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.154--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sidari, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.159--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tigaki, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.16--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Trikala, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.161--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Metamorfosi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.161--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ixia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.164--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Psalidi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.17--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pefkos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.172--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Piskopiano, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.175--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kremasti, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.176--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Koutouloufari, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.18--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fanes, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.181--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dassia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.182--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Chora, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.182--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tholos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.187--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Matala, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.192--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Antiparos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.193--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cyclades, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.194--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Milos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.195--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kefalos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.198--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kifissia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.199--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Glyfada, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.206--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gouves, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.207--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Hersonissos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.21--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ialissos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.211--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ipsos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.215--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kalambaka, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.216--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kallithea, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.217--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kanapitsa, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.221--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Karpathos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.226--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kassiopi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.227--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kavala, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.227--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lefkakia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.228--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Parga, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.229--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Laganas, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.233--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lambi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.235--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lefkada, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.242--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Linoperamata, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.243--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Makrigialos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.248--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Marmari, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.249--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Moraitika, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.249--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mykonos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.25--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Nafplion, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.257--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Oia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.259--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ornos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.26--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Paleokastritsa, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.261--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Panormos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.262--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Paros, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.263--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Patras, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.264--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Paxos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.265--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Perisa, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.271--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Perivolos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.275--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ios, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.276--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Larissa, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.277--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.278--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lemnos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.282--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Naxos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.283--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Samos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.289--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Skiathos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.292--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Skopelos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.293--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tavronitis, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.298--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sinarades, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.299--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pelekas, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.299--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kissamos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.3--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Peroulades, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.307--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Patmos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.308--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Naousa, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.309--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Acharavi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.31--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Acharnes, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.311--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Aegina, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.312--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Afandou, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.312--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Akrotiri, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.313--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Alexandroupolis, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.314--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Alimos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.32--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Scaleta, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.325--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Analipsis, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.326--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Anissaras, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.327--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Anogeia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.327--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ierapetra, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.328--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Arillas, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.331--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Athens, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.332--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bali, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.339--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Chalkidiki, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.339--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Chersonissos, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.343--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Crete, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.344--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dodecanesse, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.348--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kefalonia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.349--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Elia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.35--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Elounda, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.351--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Evia, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.359--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Peloponnese, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.359--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fira, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.36--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gennadi, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.361--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Georgioupolis, Greece]
+[EL Fine]: sql: 2020-03-08 20:33:38.362--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Budapest, Hungary]
+[EL Fine]: sql: 2020-03-08 20:33:38.363--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Reykjavik, Iceland]
+[EL Fine]: sql: 2020-03-08 20:33:38.364--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lucan, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.364--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Dublin, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.368--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ashbourne, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.373--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Balbriggan, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.375--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Galway, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.376--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Kenmare, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.376--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Killiney, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.379--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Portmarnock, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.38--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Killarney, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.384--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mayo, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.385--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Enniskerry, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.387--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Howth, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.39--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Parknasilla, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.391--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bray, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.396--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cork, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.397--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Saggart, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.398--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cong, Ireland]
+[EL Fine]: sql: 2020-03-08 20:33:38.398--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pomezia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.401--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Puglia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.407--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Riccione, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.408--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sassari, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.409--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Montesilvano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.412--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Tuscany, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.413--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ostuni, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.417--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Maiori, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.418--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gallipoli, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.419--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Senigallia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.422--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Trento, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.424--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Peschiera, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.428--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Praiano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.429--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Caserta, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.43--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Casoria, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.43--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Catania, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.433--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Catanzaro, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.434--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cattolica, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.44--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cefalu, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.441--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cervia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.442--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cesenatico, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.446--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mira, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.447--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Imperia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.452--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Florence, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.454--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Milan, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.458--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Turin, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.459--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Sicily, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.463--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Agrigento, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.464--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Alberobello, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.465--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Alghero, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.465--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Amalfi, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.469--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Anacapri, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.475--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Viserbella, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.476--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ancona, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.476--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Aosta, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.479--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Arcore, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.48--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Assago, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.486--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bardolino, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.487--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Barletta, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.49--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Baveno, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.491--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bellaria, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.496--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bentivoglio, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.497--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bergamo, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.497--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Binasco, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.498--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bologna, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.501--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Bolzano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.502--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Brescia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.508--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Calenzano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.509--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Campogalliano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.512--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Canazei, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.513--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cannaregio, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.518--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cannigione, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.519--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Carimate, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.523--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Carmagnola, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.524--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Como, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.529--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cornaredo, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.53--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Costermano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.53--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Cusago, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.533--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Elba, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.535--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ercolano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.541--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Erice, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.544--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ferrara, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.545--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Fiesole, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.549--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Frascati, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.55--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Gaeta, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.55--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Genoa, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.551--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Grosseto, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.556--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Grottaferrata, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.557--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Grugliasco, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.561--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lampedusa, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.562--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Latina, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.563--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lazio, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.564--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lecce, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.567--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Letojanni, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.568--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Linate, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.574--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lipari, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.577--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Livorno, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.578--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lombardy, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.582--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Marino, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.583--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Martinsicuro, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.584--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Matera, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.589--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Mirano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.592--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Modica, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.593--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Moncalieri, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.594--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Monza, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.595--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Naples, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.596--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Napoli, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.599--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Noto, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.6--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Novara, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.606--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Olbia, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.61--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Oleggio, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.611--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Orvieto, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.616--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Padova, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.617--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Palermo, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.618--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Parma, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.622--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pero, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.625--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pesaro, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.626--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pescara, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.627--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Piemonte, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.628--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Pompei, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.628--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ponza, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.629--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Portoferraio, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.629--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Portoscuso, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.63--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lainate, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.634--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ravenna, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.635--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rho, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.641--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Saronno, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.642--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Lissone, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.642--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Rome, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.645--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Impruneta, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.646--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Marghera, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.651--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Salerno, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.651--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Jesolo, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.652--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Ciampino, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.654--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Desenzano, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:38.657--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM CITY WHERE ((NAME = ?) AND (COUNTRY = ?))
+	bind => [Vimercate, Italy]
+[EL Fine]: sql: 2020-03-08 20:33:41.765--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID, (? * acos((((cos(radians(?)) * cos(radians(LATITUDE))) * cos((radians(LONGITUDE) - radians(?)))) + (sin(radians(?)) * sin(radians(LATITUDE)))))) FROM LOCATION WHERE ((? * acos((((cos(radians(?)) * cos(radians(LATITUDE))) * cos((radians(LONGITUDE) - radians(?)))) + (sin(radians(?)) * sin(radians(LATITUDE)))))) <= ?) ORDER BY (? * acos((((cos(radians(?)) * cos(radians(LATITUDE))) * cos((radians(LONGITUDE) - radians(?)))) + (sin(radians(?)) * sin(radians(LATITUDE))))))
+	bind => [6371, 30.0, 40.0, 30.0, 6371, 30.0, 40.0, 30.0, 20000, 6371, 30.0, 40.0, 30.0]
+[EL Fine]: sql: 2020-03-08 20:33:41.772--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [231]
+[EL Fine]: sql: 2020-03-08 20:33:41.773--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [231]
+[EL Fine]: sql: 2020-03-08 20:33:41.775--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [231]
+[EL Fine]: sql: 2020-03-08 20:33:41.779--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [246]
+[EL Fine]: sql: 2020-03-08 20:33:41.779--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [246]
+[EL Fine]: sql: 2020-03-08 20:33:41.78--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [246]
+[EL Fine]: sql: 2020-03-08 20:33:41.781--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [226]
+[EL Fine]: sql: 2020-03-08 20:33:41.782--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [226]
+[EL Fine]: sql: 2020-03-08 20:33:41.782--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [226]
+[EL Fine]: sql: 2020-03-08 20:33:41.783--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [221]
+[EL Fine]: sql: 2020-03-08 20:33:41.783--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [221]
+[EL Fine]: sql: 2020-03-08 20:33:41.784--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [221]
+[EL Fine]: sql: 2020-03-08 20:33:41.784--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [236]
+[EL Fine]: sql: 2020-03-08 20:33:41.785--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [236]
+[EL Fine]: sql: 2020-03-08 20:33:41.785--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [236]
+[EL Fine]: sql: 2020-03-08 20:33:41.789--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [2451]
+[EL Fine]: sql: 2020-03-08 20:33:41.789--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [2451]
+[EL Fine]: sql: 2020-03-08 20:33:41.79--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [2451]
+[EL Fine]: sql: 2020-03-08 20:33:41.791--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [216]
+[EL Fine]: sql: 2020-03-08 20:33:41.791--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [216]
+[EL Fine]: sql: 2020-03-08 20:33:41.792--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [216]
+[EL Fine]: sql: 2020-03-08 20:33:41.793--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [241]
+[EL Fine]: sql: 2020-03-08 20:33:41.793--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [241]
+[EL Fine]: sql: 2020-03-08 20:33:41.793--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [241]
+[EL Fine]: sql: 2020-03-08 20:33:41.794--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [1261]
+[EL Fine]: sql: 2020-03-08 20:33:41.795--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [1261]
+[EL Fine]: sql: 2020-03-08 20:33:41.795--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [1261]
+[EL Fine]: sql: 2020-03-08 20:33:41.796--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, COUNTRY, NAME, PLACEID FROM CITY WHERE (ID = ?)
+	bind => [1666]
+[EL Fine]: sql: 2020-03-08 20:33:41.796--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, NORTH_EAST, SOUTH_WEST, CITY_ID FROM BOUNDS WHERE (CITY_ID = ?)
+	bind => [1666]
+[EL Fine]: sql: 2020-03-08 20:33:41.796--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, CITY_ID FROM LOCATION WHERE (CITY_ID = ?)
+	bind => [1666]
+[EL Fine]: sql: 2020-03-08 20:33:41.798--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [232]
+[EL Fine]: sql: 2020-03-08 20:33:41.8--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [247]
+[EL Fine]: sql: 2020-03-08 20:33:41.801--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [227]
+[EL Fine]: sql: 2020-03-08 20:33:41.803--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [222]
+[EL Fine]: sql: 2020-03-08 20:33:41.804--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [237]
+[EL Fine]: sql: 2020-03-08 20:33:41.805--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [2452]
+[EL Fine]: sql: 2020-03-08 20:33:41.806--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [217]
+[EL Fine]: sql: 2020-03-08 20:33:41.807--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [242]
+[EL Fine]: sql: 2020-03-08 20:33:41.808--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [1262]
+[EL Fine]: sql: 2020-03-08 20:33:41.809--ServerSession(2032251042)--Connection(345281752)--Thread(Thread[main,5,main])--SELECT ID, LATITUDE, LONGITUDE, BOUNDS_ID FROM COORDINATES WHERE (BOUNDS_ID = ?) ORDER BY ID ASC
+	bind => [1667]

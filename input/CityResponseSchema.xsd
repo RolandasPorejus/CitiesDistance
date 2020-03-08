@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="GeocodeResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="status"/>
+				<xs:element name="result">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="type" maxOccurs="unbounded" minOccurs="0"/>
+							<xs:element type="xs:string" name="formatted_address"/>
+							<xs:element name="address_component" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="long_name"/>
+										<xs:element type="xs:string" name="short_name"/>
+										<xs:element type="xs:string" name="type" maxOccurs="unbounded" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="geometry">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="location">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:float" name="lat"/>
+													<xs:element type="xs:float" name="lng"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element type="xs:string" name="location_type"/>
+										<xs:element name="viewport">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="southwest">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:float" name="lat"/>
+																<xs:element type="xs:float" name="lng"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="northeast">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:float" name="lat"/>
+																<xs:element type="xs:float" name="lng"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="bounds" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="southwest">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:float" name="lat"/>
+																<xs:element type="xs:float" name="lng"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="northeast">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:float" name="lat"/>
+																<xs:element type="xs:float" name="lng"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:boolean" name="partial_match" minOccurs="0"/>
+							<xs:element type="xs:string" name="place_id"/>
+							<xs:any processContents="skip" namespace="##any" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:any processContents="skip" namespace="##any" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

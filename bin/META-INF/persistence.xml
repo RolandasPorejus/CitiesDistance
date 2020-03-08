@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="CitiesDistance" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		
+		<class>citiesDistance.City</class>
+		<class>citiesDistance.Bounds</class>
+		<class>citiesDistance.Coordinates</class>
+		<class>citiesDistance.Location</class>
+		<properties>
+	        <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
+	        <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:db/CitiesDataDB.db" />
+	        <property name="eclipselink.logging.level" value="ALL" />
+	        
+	        <!-- EclipseLink should create the database schema automatically -->
+  			<property name="eclipselink.ddl-generation" value="create-tables" />
+  			<property name="eclipselink.ddl-generation.output-mode" value="database" />
+  			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      	</properties>
+	</persistence-unit>
+</persistence>
